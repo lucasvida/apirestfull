@@ -1,0 +1,33 @@
+{
+  "name": "apirestfull",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasvida/apirestfull.git"
+  },
+  "bugs": "https://github.com/lucasvida/apirestfull/issues",
+  "keywords": [],
+  "author": {
+    "name": "Luca Vida",
+    "email": "contato@lucasvida.com",
+    "url": "https://lucasvida.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "nodemon server/app.js",
+    "test": ""
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
