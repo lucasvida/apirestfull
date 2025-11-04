@@ -1,6 +1,12 @@
 import express from 'express';
 import cors from 'cors';
 
+// HTTP and HTTPS keep-alive
+import http from 'http';
+import https from 'https';
+http.globalAgent.keepAlive = true;
+https.globalAgent.keepAlive = true;
+
 // Home route
 import homeRouter from './routes/homeRoute.js';
 
